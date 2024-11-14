@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: pink;
+    margin-left:10em ;
+    margin-right: 10em;
+  }
+
+  .container {
+    height: 100vh;
+    background: greenyellow;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+  }
+
+  header,
+  footer {
+    background: grey;
+    height: 100px;
+  }
+  main {
+    background: grey;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 100px;
+    flex-grow: 1;
+  }
+
